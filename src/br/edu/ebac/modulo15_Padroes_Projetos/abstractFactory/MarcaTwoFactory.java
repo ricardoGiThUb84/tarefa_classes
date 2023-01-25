@@ -1,9 +1,6 @@
 package br.edu.ebac.modulo15_Padroes_Projetos.abstractFactory;
 
-public class MarcaTwoFactory implements ProdutoFactory{
-
-
-
+public class MarcaTwoFactory implements ProdutoFactory {
 
 
     @Override
