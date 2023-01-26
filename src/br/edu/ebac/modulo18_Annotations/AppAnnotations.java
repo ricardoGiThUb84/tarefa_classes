@@ -12,9 +12,9 @@ public class AppAnnotations {
 
         for (Method metodo:declaredMethods) {
 
-            final boolean annotationPresent = metodo.isAnnotationPresent(Tabela.class);
+            final boolean annotationPresent = metodo.isAnnotationPresent(Table.class);
             if(annotationPresent){
-                final String nome = metodo.getAnnotation(Tabela.class).nome();
+                final String nome = metodo.getAnnotation(Table.class).nome();
                 System.out.println("-----" + nome + "-----");
                 metodo.invoke(tabela);
             }
